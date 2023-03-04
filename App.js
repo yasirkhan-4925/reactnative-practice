@@ -19,14 +19,15 @@ import {
 
 import HomeScreen from './src/HomeScreen';
 import FirstAnimated from './src/FirstAnimated';
+import ScrollViewComponent from './src/ScrollView';
 
 function App() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar />
-
       {/* <HomeScreen /> */}
-      <FirstAnimated />
+      {/* <FirstAnimated /> */}
+      <ScrollViewComponent />
     </SafeAreaView>
   );
 }
