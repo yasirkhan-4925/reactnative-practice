@@ -20,6 +20,7 @@ import {
 import HomeScreen from './src/HomeScreen';
 import FirstAnimated from './src/FirstAnimated';
 import ScrollViewComponent from './src/ScrollView';
+import ChatScreen from './src/ChatScreen';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <StatusBar />
       {/* <HomeScreen /> */}
       {/* <FirstAnimated /> */}
-      <ScrollViewComponent />
+      {/* <ScrollViewComponent /> */}
+      <ChatScreen/>
     </SafeAreaView>
   );
 }
